@@ -1,7 +1,7 @@
 """
 MadLibs
-Author: 
-Period/Core:
+Author: Hope Baer
+Period/Core: 3
 
 
 """
@@ -23,7 +23,7 @@ time.sleep(1)
 print(colored("...", 'red'))
 time.sleep(2)
 
-
+#variables for user input
 person = input("Enter a friend's name:")
 adjectiveone = input("Enter an adjective:")
 place = input("Enter a store/restaurant name:")
@@ -50,13 +50,13 @@ objecttwo = input("Enter an object:")
 objectthree = input("Enter an object:")
 expressionone = input("Enter an expression ending in -ed:")
 adjectivefour = input("Enter an adjective:")
-verbsix = input("Enter a verb ending with -ed:")
+verbsix = input("Enter a verb ending with -ed:\n")
 
 print("Great!" + " Now let's move on.")
-print(colored("Generating..."))
+print("Generating...\n")
 time.sleep(3)
 
 
+#generated story
 print(f"Today I went to the mall. At the mall, I saw {person}.")
-print(f"{person} and I gave each other a {adjectiveone} high-five and walked over to {place}.\n At {place}, {person} almost immediately {verbone} over to the {nounone}. “Wait!” I said, {verbtwo} over to {person}. I grabbed his {bpartone} and pulled him over to the door. “What are you doing?” I said {adjectivetwo}.\n  “  I was looking for a/an {objectone} and I found it,” {person} said, pointing his {bparttwo} to the {objectone}. “O.K. Go get it, then!” I let go of his {bpartone} and he {verbthree} to the {nountwo}. I watched him as he barreled into the {nounone} as he tripped and knocked over a {family}. “{caps}!!!!” The {family} yelled, and whacked Dave with the {objectone}. They had gotten up and left as I {verbfour} to help {person} up. “Oops,” {person} replied, rubbing his {facebody}. I reached out to {person} with my {bpartthree} and he got up.\n  “What is all this?!” The store manager said, who {verbfive} over to us. She pointed her {adjectivethree} finger at me and {person}. “Clean it up! And get out!” She yelled, disturbing all of the customers around us. I felt {emotionone}. {person} looked at me and opened their mouth to speak, but paused as the lady walked {adjectivefour} to us. She picked up the {objectone} that {person}
-wanted! “Hurry it up! And pay for everything you broke!” She swatted her hands around to queue us to begin cleaning the messy floor. I grabbed a {nounthree} and swept with it. {person} picked up a {objecttwo} and a {objectthree} and started scrubbing the floors. After we finished cleaning, we handed over our leftover money we were going to use to buy the {objectone} with. She {expressionone} and pointed her {adjectivefour} finger to the door. I {verbsix} {person} on the back. “We’ll get it Amazon I guess.” I told them. We headed back into the mall and didn’t enter {place} again.
+print(f"{person} and we gave each other a {adjectiveone} high-five and walked over to {place}.\n At {place}, {person} almost immediately {verbone} over to the {nounone}. “Wait!” I said, {verbtwo} over to {person}. I grabbed their {bpartone} and pulled them over to the door. “What are you doing?” I said {adjectivetwo}.\n  “  I was looking for a/an {objectone} and I found it,” {person} said, pointing their {bparttwo} to the {objectone}. “O.K. Go get it, then!” I let go of their {bpartone} and they {verbthree} to the {nountwo}. I watched them as they barreled into the {nounone} as they tripped and knocked over a {family}. “{caps}!!!!” The {family} yelled, and whacked Dave with the {objectone}. They had gotten up and left as I {verbfour} to help {person} up. “Oops,” {person} replied, rubbing their {facebody}. I reached out to {person} with my {bpartthree} and they got up.\n  “What is all this?!” The store manager said, who {verbfive} over to us. She pointed her {adjectivethree} finger at me and {person}. “Clean it up! And get out!” She yelled, disturbing all of the customers around us. I felt {emotionone}. {person} looked at me and opened their mouth to speak, but paused as the lady walked {adjectivefour} to us. She picked up the {objectone} that {person} wanted! “Hurry it up! And pay for everything you broke!” She swatted her hands around to queue us to begin cleaning the messy floor. I grabbed a {nounthree} and swept with it. {person} picked up a {objecttwo} and a {objectthree} and started scrubbing the floors. After we finished cleaning, we handed over our leftover money we were going to use to buy the {objectone} with. She {expressionone} and pointed her {adjectivefour} finger to the door. I {verbsix} {person} on the back. “We’ll get it Amazon I guess.” I told them. We headed back into the mall and didn’t enter {place} again.")
